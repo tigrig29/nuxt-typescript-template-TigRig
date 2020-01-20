@@ -7,7 +7,8 @@
   "vetur.validation.style": true,
   "vetur.validation.template": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
   },
   "vetur.format.defaultFormatter.js": "prettier",
   "vetur.format.defaultFormatter.css": "prettier",
@@ -15,5 +16,9 @@
   "vetur.format.defaultFormatter.postcss": "prettier",
   "vetur.format.defaultFormatter.scss": "prettier",
   "vetur.format.defaultFormatter.stylus": "none",
-  "vetur.format.defaultFormatter.ts": "prettier"
+  "vetur.format.defaultFormatter.ts": "prettier",
+
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false
 }
