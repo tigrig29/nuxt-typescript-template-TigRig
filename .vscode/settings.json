@@ -1,15 +1,13 @@
 {
-  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
-  "eslint.enable": true,
   "editor.formatOnSave": false,
-  "eslint.run": "onType",
-  "vetur.validation.style": true,
-  "vetur.validation.template": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true
   },
+  "eslint.enable": true,
+  "eslint.run": "onType",
+  "vetur.validation.style": true,
+  "vetur.validation.template": true,
   "vetur.format.defaultFormatter.js": "prettier",
   "vetur.format.defaultFormatter.css": "prettier",
   "vetur.format.defaultFormatter.less": "prettier",
@@ -17,7 +15,6 @@
   "vetur.format.defaultFormatter.scss": "prettier",
   "vetur.format.defaultFormatter.stylus": "none",
   "vetur.format.defaultFormatter.ts": "prettier",
-
   "css.validate": false,
   "scss.validate": false,
   "less.validate": false
