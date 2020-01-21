@@ -18,3 +18,10 @@ export default class PartSample extends Vue {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.Sample {
+  font-size: 1.5rem;
+  color: #aef;
+}
+</style>

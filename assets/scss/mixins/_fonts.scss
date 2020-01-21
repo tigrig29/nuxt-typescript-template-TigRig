@@ -3,8 +3,8 @@
   $src: null;
 
   $formats: (
-    otf: "opentype",
-    ttf: "truetype"
+    otf: 'opentype',
+    ttf: 'truetype'
   );
 
   @each $ext in $exts {
@@ -14,7 +14,7 @@
 
   @font-face {
     font-family: quote($name);
-    font-style:  $style;
+    font-style: $style;
     font-weight: $weight;
     src: $src;
   }
