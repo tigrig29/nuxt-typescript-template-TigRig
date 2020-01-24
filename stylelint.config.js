@@ -5,6 +5,6 @@ module.exports = {
     'stylelint-config-recommended-scss', // ↑ を上書きする
     'stylelint-prettier/recommended' // stylelint-config-prettier も含まれる
   ],
-  plugins: ['stylelint-scss', 'stylelint-prettier'],
+  plugins: [],
   rules: []
 }
