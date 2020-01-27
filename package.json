@@ -12,6 +12,15 @@
     "lint:ts": "eslint --ext .ts,.js,.vue --ignore-path .gitignore .",
     "lint:style": "stylelint **/*.css **/*.scss **/*.vue"
   },
+  "lint-staged": {
+    "*.{js,ts,vue}": "eslint",
+    "*.{css,scss,vue}": "stylelint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
     "@fortawesome/free-solid-svg-icons": "^5.12.0",
@@ -22,15 +31,6 @@
     "nuxt": "^2.11.0",
     "nuxt-fontawesome": "^0.4.0",
     "nuxt-property-decorator": "^2.5.0"
-  },
-  "lint-staged": {
-    "*.{js,ts,vue}": "eslint",
-    "*.{css,scss,vue}": "stylelint"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^0.5.6",
