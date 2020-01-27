@@ -23,13 +23,7 @@ const config: Configuration = {
     '@nuxt/typescript-build',
     '@nuxtjs/stylelint-module'
   ],
-  modules: [
-    '@nuxtjs/axios',
-    '@nuxtjs/pwa',
-    '@nuxtjs/style-resources',
-    'nuxt-fontawesome'
-  ],
-  axios: {},
+  modules: ['@nuxtjs/pwa', '@nuxtjs/style-resources', 'nuxt-fontawesome'],
   styleResources: {
     scss: [
       '~/assets/scss/variables/main.scss',
