@@ -39,18 +39,6 @@ const config: Configuration = {
         ['@babel/plugin-proposal-decorators', { legacy: true }],
         ['@babel/plugin-proposal-class-properties', { loose: true }]
       ]
-    },
-    extend(config, ctx) {
-      // Run ESLint on save (during hot reload)
-      if (ctx.isDev && ctx.isClient) {
-        if (!config.module) return
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
-      }
     }
   }
 }
