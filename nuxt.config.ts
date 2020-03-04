@@ -33,14 +33,7 @@ const config: Configuration = {
   fontawesome: {
     component: 'fa'
   },
-  build: {
-    babel: {
-      plugins: [
-        ['@babel/plugin-proposal-decorators', { legacy: true }],
-        ['@babel/plugin-proposal-class-properties', { loose: true }]
-      ]
-    }
-  }
+  build: {}
 }
 
 export default config
