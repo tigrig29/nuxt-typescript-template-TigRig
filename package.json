@@ -9,7 +9,7 @@
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
     "generate": "nuxt-ts generate",
-    "lint:ts": "eslint --ext .ts,.js,.vue --ignore-path .gitignore .",
+    "lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore .",
     "lint:style": "stylelint **/*.css **/*.scss **/*.vue"
   },
   "lint-staged": {
@@ -33,8 +33,6 @@
     "nuxt-property-decorator": "^2.5.0"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.8.3",
-    "@babel/plugin-proposal-optional-chaining": "^7.8.3",
     "@nuxt/typescript-build": "^0.5.6",
     "@nuxtjs/eslint-config-typescript": "^1.0.0",
     "@nuxtjs/eslint-module": "^1.1.0",

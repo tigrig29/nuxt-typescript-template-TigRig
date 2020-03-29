@@ -31,5 +31,8 @@
   "vetur.format.defaultFormatter.stylus": "none",
   "vetur.format.defaultFormatter.ts": "prettier",
   "css.validate": false,
-  "scss.validate": false
+  "scss.validate": false,
+  "cSpell.words": [
+    "stylelint"
+  ]
 }
