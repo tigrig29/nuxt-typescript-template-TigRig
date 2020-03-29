@@ -34,6 +34,7 @@ module.exports = {
           allowFirstLine: false
         }
       }
-    ]
+    ],
+    'no-await-in-loop': 'error'
   }
 }
